@@ -4,7 +4,7 @@ using FluentAvalonia.UI.Controls;
 
 namespace FluentAvalonia.FluentIcons;
 
-public class FluentIcon : PathIcon
+public class FluentIcon : FAPathIcon
 {
     public static readonly StyledProperty<FluentIconSymbol> IconProperty =
         AvaloniaProperty.Register<FluentIcon, FluentIconSymbol>(nameof(Icon));
@@ -15,7 +15,7 @@ public class FluentIcon : PathIcon
         set => SetValue(IconProperty, value);
     }
 
-    protected override void OnPropertyChanged<T>(AvaloniaPropertyChangedEventArgs<T> change)
+    protected override void OnPropertyChanged(AvaloniaPropertyChangedEventArgs change)
     {
         base.OnPropertyChanged(change);
 
