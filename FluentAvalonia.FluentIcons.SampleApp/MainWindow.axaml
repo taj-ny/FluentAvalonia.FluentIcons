@@ -1,0 +1,32 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="using:FluentAvalonia.UI.Controls"
+        xmlns:ic="using:FluentAvalonia.FluentIcons"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="FluentAvalonia.FluentIcons.SampleApp.MainWindow"
+        Title="FluentAvalonia.FluentIcons.SampleApp">
+
+    <ui:NavigationView>
+        <ui:NavigationView.MenuItems>
+            <ui:NavigationViewItem Content="Settings16Regular">
+                <ui:NavigationViewItem.Icon>
+                    <ic:FluentIcon Icon="Settings16Regular"/>
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+
+            <!-- The library also provides markup extensions to reduce boilerplate code -->
+            <ui:NavigationViewItem Content="Settings20Regular"
+                                   Icon="{ic:FluentIcon Settings20Regular}"/>
+            <ui:NavigationViewItem Content="Settings24Regular"
+                                   Icon="{ic:FluentIcon Settings24Regular}"/>
+            <ui:NavigationViewItem Content="Settings28Regular"
+                                   Icon="{ic:FluentIcon Settings28Regular}"/>
+            <ui:NavigationViewItem Content="Settings32Regular"
+                                   Icon="{ic:FluentIcon Settings32Regular}"/>
+            <ui:NavigationViewItem Content="Settings48Regular"
+                                   Icon="{ic:FluentIcon Settings48Regular}"/>
+        </ui:NavigationView.MenuItems>
+    </ui:NavigationView>
+</Window>

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAvalonia.FluentIcons", "FluentAvalonia.FluentIcons\FluentAvalonia.FluentIcons.csproj", "{93C7F6A6-7399-41C7-8D58-0E37DD289BE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAvalonia.FluentIcons.SampleApp", "FluentAvalonia.FluentIcons.SampleApp\FluentAvalonia.FluentIcons.SampleApp.csproj", "{B8B345EC-016F-4172-916B-156BE40E2BEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{93C7F6A6-7399-41C7-8D58-0E37DD289BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93C7F6A6-7399-41C7-8D58-0E37DD289BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93C7F6A6-7399-41C7-8D58-0E37DD289BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8B345EC-016F-4172-916B-156BE40E2BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B345EC-016F-4172-916B-156BE40E2BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B345EC-016F-4172-916B-156BE40E2BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B345EC-016F-4172-916B-156BE40E2BEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
