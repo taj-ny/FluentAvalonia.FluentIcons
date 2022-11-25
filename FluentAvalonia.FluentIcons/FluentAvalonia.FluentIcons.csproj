@@ -13,7 +13,7 @@
         <Authors>taj_ny</Authors>
         <Copyright>Copyright (c) 2022 taj_ny</Copyright>
         <PackageProjectUrl>https://github.com/taj-ny/FluentAvalonia.FluentIcons</PackageProjectUrl>
-        <PackageVersion>2.0.0-alpha.4</PackageVersion>
+        <PackageVersion>2.0.0-alpha.5</PackageVersion>
         <AssemblyVersion>2.0.0</AssemblyVersion>
         <FileVersion>2.0.0</FileVersion>
         <DebugType>embedded</DebugType>
