@@ -1,4 +1,5 @@
 using Avalonia.Controls;
+using Avalonia.Markup.Xaml;
 
 namespace FluentAvalonia.FluentIcons.SampleApp
 {
@@ -7,6 +8,11 @@ namespace FluentAvalonia.FluentIcons.SampleApp
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        public void InitializeComponent()
+        {
+            AvaloniaXamlLoader.Load(this);
         }
     }
 }
